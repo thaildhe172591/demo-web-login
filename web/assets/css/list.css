@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 15, 2024, 2:01:49 AM
+    Author     : LDT
+*/
+
+.container-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 0;
+}
+
+.button {
+    background-color: #512da8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #512da8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td { 
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    color: white;
+    background-color: #512da8;
+}
+
+@media screen and (max-width: 600px) {
+    .container-list {
+        padding: 10px;
+    }
+
+    .button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
